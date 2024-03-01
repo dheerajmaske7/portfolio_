@@ -13,13 +13,13 @@ const About = () => {
       exit={{ x: "-100%" }}
     >
       <Helmet>
-        <title>About Me - Raj Aryan</title>
+        <title>About Me - Dheeraj Maske</title>
         <meta
           name="description"
           content="Raj Aryan | Pre-Final Mechanical Engineering student at NIT Rourkela | Lead Organizer at HackOdisha 3.0 | Vice President at Webwiz | Explore my journey in web development, and my contributions as an Open Source Developer at Meshery and Layer5."
         />
         {/* Open Graph tags */}
-        <meta property="og:title" content="About Me - Raj Aryan" />
+        <meta property="og:title" content="About Me - Dheeraj maske" />
         <meta
           property="og:description"
           content="Dive into the profile of Raj Aryan, A Pre- Final year Student at NIT Rourkela. Lead Organizer at HackOdisha 3.0, Vice President at Webwiz."
@@ -29,11 +29,10 @@ const About = () => {
 
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="About Me - Raj Aryan" />
+        <meta name="twitter:title" content="About Me" />
         <meta
           name="twitter:description"
-          content="Dive into the profile of Raj Aryan, A Pre- Final year Student at NIT Rourkela. Lead Organizer at HackOdisha 3.0, Vice President at Webwiz."
-        />
+          content=""/>
         <meta name="twitter:image" content={rajImg} />
       </Helmet>
       <div className="md:w-[70vw] w-[90vw] md:h-[80vh] h-[100vh] p-5 lg:p-10">

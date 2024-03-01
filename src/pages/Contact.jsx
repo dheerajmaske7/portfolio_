@@ -135,9 +135,9 @@ const Contact = () => {
               <h1 className="text-bold text-2xl font-semibold">
                 Or you can write a mail directly to
               </h1>
-              <a href="mailto:hi@rajaryan.work">
+              <a href="mailto:dheerajmaske2001@gmail.com">
                 <p className="my-5 text-center underline underline-offset-8 font-sans-serif text-xl tracking-widest	">
-                  hi@rajaryan.work
+                dheerajmaske2001@gmail.com
                 </p>
               </a>
             </div>

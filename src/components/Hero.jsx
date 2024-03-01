@@ -15,30 +15,29 @@ const Hero = () => {
       exit={{ x: '-100%' }}
     >
       <Helmet>
-        <title>Raj Aryan - Web Developer</title>
+        <title>Dheeraj Maske - Genralist</title>
         <meta
           name='description'
-          content="Hi, I'm Raj Aryan, a web developer passionate about creating innovative web solutions. Connect with me to discuss web development and explore my projects."
+          content="Hi, I'm Dheeraj maske, a web developer passionate about creating innovative web solutions. Connect with me to discuss web development and explore my projects."
         />
         {/* Open Graph tags */}
-        <meta property='og:title' content="Raj Aryan - Web Developer" />
-        <meta property='og:description' content="Hi, I'm Raj Aryan, a web developer passionate about creating innovative web solutions. Connect with me to discuss web development and explore my projects." />
+        <meta property='og:title' content="Dheeraj Maske -" />
+        <meta property='og:description' content="Hi, I'm Dheeraj Maske." />
         <meta property='og:image' content={HeroImg} />
-        <meta property='og:url' content='https://rajaryan.work' />
+        <meta property='og:url' content='' />
         <meta property='og:type' content='website' />
         {/* Twitter Card tags */}
         <meta name='twitter:card' content='summary_large_image' />
-        <meta name='twitter:title' content="Raj Aryan - Web Developer" />
-        <meta name='twitter:description' content="Hi, I'm Raj Aryan, a web developer passionate about creating innovative web solutions. Connect with me to discuss web development and explore my projects." />
-        <meta name='twitter:image' content={HeroImg} />
-        <meta name='twitter:url' content='https://rajaryan.work' />
+        <meta name='twitter:title' content="Dheeraj Maske" />
+        <meta name='twitter:description' content="Hi, I'm "/>
+        <meta name='twitter:url' content='https://twitter.com/Dheeraj_maske' />
       </Helmet>
 
       <div className='welcome-text'>
         <h1 className='md:text-5xl text-3xl text-center font-bold text-white'>
           Hi, I'm{' '}
           <span className={`text-transparent bg-clip-text bg-gradient-to-br from-[#EF4444] to-[#2f2e41] text-ellipsis`}>
-            Raj Aryan
+            Dheeraj Maske
           </span>
         </h1>
         <div className='flex flex-row justify-evenly mt-10'>
@@ -57,16 +56,16 @@ const Hero = () => {
               Let's Talk
             </button>
           </Link>
-          <a href='https://cdn.rajaryan.work/Raj_Aryan_Resume.pdf' target='_blank' rel='noopener noreferrer'>
+          <a href='https://drive.google.com/file/d/1YxUH8hJNqMh-LA_fBec55S2KIIoQOh6D/view?usp=sharing' target='_blank' rel='noopener noreferrer'>
             <button className='outline-2 text-white bg-[#1f1f1f] rounded-lg hover:bg-[#252525] px-3 py-2'>
               Resume
             </button>
           </a>
         </div>
       </div>
-      <div className='self-img'>
-        <img className='w-[70vw] lg:w-96' src={HeroImg} alt='Raj Aryan' />
-      </div>
+      {/* <div className='self-img'>
+        <img className='w-[70vw] lg:w-96' src={HeroImg} alt='Dheeraj Maske' />
+      </div> */}
     </motion.div>
   );
 };
