@@ -39,7 +39,7 @@ const About = () => {
         <h1 className="text-center text-white md:text-5xl sm:text-3xl text-xl font-bold mb-5">
           About Me:
         </h1>
-        <div className="flex flex-col-reverse md:flex-row ">
+        {/* <div className="flex flex-col-reverse md:flex-row ">
           <div className="about-me-text lg:px-10 p-2 py-10 md:text-2xl sm:text-xl text-sm font-mono text-white/70">
             <p className=" ">
               I am{" "}
@@ -94,7 +94,7 @@ const About = () => {
               alt="Raj Aryan"
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </motion.div>
   );
