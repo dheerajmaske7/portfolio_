@@ -39,7 +39,7 @@ const About = () => {
         <h1 className="text-center text-white md:text-5xl sm:text-3xl text-xl font-bold mb-5">
           About Me:
         </h1>
-        {/* <div className="flex flex-col-reverse md:flex-row ">
+        <div className="flex flex-col-reverse md:flex-row ">
           <div className="about-me-text lg:px-10 p-2 py-10 md:text-2xl sm:text-xl text-sm font-mono text-white/70">
             <p className=" ">
               I am{" "}
@@ -75,16 +75,6 @@ const About = () => {
               and Layer5 <br /> I write informative posts on my socials
               sometimes. <br />
             </p>
-            <div className=" p-4 bg-gray-600/20 flex gap-4 justify-between items-center rounded-lg mt-12">
-              <div className="text-xl sm:text-3xl h-full text-[#ef4444]/60">
-                <AiOutlineInfoCircle></AiOutlineInfoCircle>
-              </div>
-              <p className="text-sm sm:text-lg font-medium tracking-wider   ">
-                The performance of the site is not great. I'm in the process of
-                migrating this website to Next.js for Server Side Rendering and
-                better SEO.
-              </p>
-            </div>
           </div>
 
           <div className="sm:w-[500px] w-full m-auto">
@@ -94,7 +84,7 @@ const About = () => {
               alt="Raj Aryan"
             />
           </div>
-        </div> */}
+        </div>
       </div>
     </motion.div>
   );

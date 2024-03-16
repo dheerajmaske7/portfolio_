@@ -36,7 +36,7 @@ const Hero = () => {
       <div className='welcome-text'>
         <h1 className='md:text-5xl text-3xl text-center font-bold text-white'>
           Hi, I'm{' '}
-          <span className={`text-transparent bg-clip-text bg-gradient-to-br from-[#EF4444] to-[#2f2e41] text-ellipsis`}>
+          <span className={`text-transparent bg-clip-text bg-gradient-to-br from-[#EF4444] to-[#EF4444] text-ellipsis`}>
             Dheeraj Maske
           </span>
         </h1>
