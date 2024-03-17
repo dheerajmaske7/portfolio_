@@ -16,13 +16,13 @@ const About = () => {
         <title>About Me - Dheeraj Maske</title>
         <meta
           name="description"
-          content="Raj Aryan | Pre-Final Mechanical Engineering student at NIT Rourkela | Lead Organizer at HackOdisha 3.0 | Vice President at Webwiz | Explore my journey in web development, and my contributions as an Open Source Developer at Meshery and Layer5."
+          content="|  |  | | "
         />
         {/* Open Graph tags */}
         <meta property="og:title" content="About Me - Dheeraj maske" />
         <meta
           property="og:description"
-          content="Dive into the profile of Raj Aryan, A Pre- Final year Student at NIT Rourkela. Lead Organizer at HackOdisha 3.0, Vice President at Webwiz."
+          content=""
         />
         <meta property="og:image" content={rajImg} />
         <meta property="og:url" content="Your page URL here" />
@@ -42,38 +42,39 @@ const About = () => {
         <div className="flex flex-col-reverse md:flex-row ">
           <div className="about-me-text lg:px-10 p-2 py-10 md:text-2xl sm:text-xl text-sm font-mono text-white/70">
             <p className=" ">
-              I am{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#EF4444] to-[#2f2e41] text-ellipsis">
-                Raj Aryan
+             
+              <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#EF4444] to-[#EF4444] text-ellipsis">
+                
               </span>
-              . A Pre-Final Of Mechanical Engg. NIT Rourkela but I'm into
-              multiple things, chasing interests. <br /> I find Web Dev fun.
+               Welcome to my portfolio! I am Dheeraj Maske, a passionate individual with a diverse range of interests spanning technology, management, and sports. With a background in engineering and a keen interest in exploring the intersection of technology and management, I am dedicated to continuous learning and personal growth.
+
+Throughout my journey, I have had the privilege of gaining valuable experiences, from internships at prestigious institutions like ISRO and TRDDC to leadership roles in student organizations. My dedication to innovation and problem-solving has fueled my ambition to make a meaningful impact in the techno-management industry.
+
+Outside of my professional pursuits, I am an avid sports enthusiast, finding joy and discipline in activities like soccer. Balancing work and play is essential to me, and I believe in fostering a healthy work-life equilibrium. <br /> 
               <br />
-              BTW, Lead Organizer at{" "}
+              
               <a
-                href="https://www.hackodisha.tech"
+                href=""
                 target="_blank"
                 rel="noreferrer"
                 className=" border-b-2 border-[#EF4444] border-opacity-25 transition ease-in hover:border-opacity-75 "
               >
                 <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#EF4444] to-[#2f2e41] text-ellipsis">
-                  HackOdisha 3.0
+                  
                 </span>
               </a>
-              {" , "} Vice President{" "}
+              
               <a
-                href="https://teamwebwiz.dev"
+                href=""
                 target="_blank"
                 rel="noreferrer"
                 className=" border-b-2 border-[#EF4444] border-opacity-25 transition ease-in hover:border-opacity-75 "
               >
                 <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#EF4444] to-[#2f2e41] text-ellipsis">
-                  Webwiz
+                 
                 </span>
               </a>
-              . <br /> Also into Open Source - Open Source Developer at Meshery
-              and Layer5 <br /> I write informative posts on my socials
-              sometimes. <br />
+              
             </p>
           </div>
 
@@ -81,7 +82,7 @@ const About = () => {
             <img
               src={rajImg}
               className=" w-full ease-in aspect-square object-cover rounded-[50%]"
-              alt="Raj Aryan"
+              alt=""
             />
           </div>
         </div>
