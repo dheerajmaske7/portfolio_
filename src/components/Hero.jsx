@@ -56,7 +56,7 @@ const Hero = () => {
               Let's Talk
             </button>
           </Link>
-          <a href='https://drive.google.com/file/d/1YxUH8hJNqMh-LA_fBec55S2KIIoQOh6D/view?usp=sharing' target='_blank' rel='noopener noreferrer'>
+          <a href='https://drive.google.com/file/d/1rrxpjXe35Km6kDsbqtx0gvaiND0q05to/view?usp=sharing' target='_blank' rel='noopener noreferrer'>
             <button className='outline-2 text-white bg-[#1f1f1f] rounded-lg hover:bg-[#252525] px-3 py-2'>
               Resume
             </button>
